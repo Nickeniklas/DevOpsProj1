@@ -30,7 +30,7 @@ public class CalcV1 {
             userMathChoice = Integer.parseInt(userInput.nextLine());
             
 	    }
-        System.out.println("Bye bye, see you later!");
+        System.out.println("Bye bye!");
         userInput.close();
 	}
 	
