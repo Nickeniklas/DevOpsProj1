@@ -3,13 +3,10 @@ RUN apt-get update
 RUN apt update
 RUN apt-get install default-jdk -y
 
-COPY . .
-# Compile the Java file
-RUN javac Main.java
+WORKDIR /app
+
+COPY target/math_calc-0.1.jar app/MathApp.jar
 
 # Command to run the Java application
-CMD ["java", "Main"]
-
-
-
+ENTRYPOINT ["java", "-jar", "app/MathApp.jar"]
 
