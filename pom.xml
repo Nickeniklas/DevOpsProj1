@@ -107,21 +107,20 @@
             <version>3.0.0</version>
             <executions>
             <!-- auto rmi -->
-				<execution>
-				  <id>docker-cleanup</id>
-				  <phase>install</phase>
-				  <goals>
-				    <goal>exec</goal>
-				  </goals>
-				  <configuration>
-				    <executable>sh</executable>
-				    <arguments>
-				      <argument>-c</argument>
-				            <argument>if [ -n "$(docker images -q arcada.math_calc)" ]; then docker rmi arcada.math_calc; else echo "Image not found, skipping cleanup"; fi</argument>
-				    </arguments>
-				  </configuration>
-				</execution>
-
+			<execution>
+	            <id>docker-cleanup</id>
+	            <phase>install</phase>
+	            <goals>
+	              <goal>exec</goal>
+	            </goals>
+	            <configuration>
+	              <executable>docker</executable>
+	              <arguments>
+	                <argument>rmi</argument>
+	                <argument>arcada.math_calc</argument>
+	              </arguments>
+	            </configuration>
+          	</execution>
             	<!-- auto build image -->
                 <execution>
                     <id>docker-build</id>
