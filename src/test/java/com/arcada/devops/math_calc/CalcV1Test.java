@@ -71,7 +71,7 @@ public class CalcV1Test {
 	        try {
 	            int mathSolved = userN1 / userN2;
 	        } catch (ArithmeticException e) {
-	            assertEquals("divison(/) by zero", e.getMessage(), "Division by zero should throw ArithmeticException");
+	            assertEquals("/ by zero", e.getMessage(), "Division by zero should throw ArithmeticException");
 	        }
 	    }
 
