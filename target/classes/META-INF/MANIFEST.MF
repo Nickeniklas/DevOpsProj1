@@ -1,5 +1,27 @@
 Manifest-Version: 1.0
 Build-Jdk-Spec: 22
+Class-Path: lib/selenium-java-4.26.0.jar lib/selenium-api-4.26.0.jar lib
+ /jspecify-1.0.0.jar lib/selenium-chrome-driver-4.26.0.jar lib/auto-serv
+ ice-annotations-1.1.1.jar lib/selenium-chromium-driver-4.26.0.jar lib/s
+ elenium-json-4.26.0.jar lib/selenium-manager-4.26.0.jar lib/selenium-de
+ vtools-v128-4.26.0.jar lib/selenium-devtools-v129-4.26.0.jar lib/seleni
+ um-devtools-v130-4.26.0.jar lib/selenium-devtools-v85-4.26.0.jar lib/se
+ lenium-edge-driver-4.26.0.jar lib/selenium-firefox-driver-4.26.0.jar li
+ b/selenium-http-4.26.0.jar lib/failsafe-3.3.2.jar lib/selenium-ie-drive
+ r-4.26.0.jar lib/selenium-remote-driver-4.26.0.jar lib/guava-33.3.1-jre
+ .jar lib/failureaccess-1.0.2.jar lib/listenablefuture-9999.0-empty-to-a
+ void-conflict-with-guava.jar lib/jsr305-3.0.2.jar lib/checker-qual-3.43
+ .0.jar lib/error_prone_annotations-2.28.0.jar lib/j2objc-annotations-3.
+ 0.0.jar lib/opentelemetry-semconv-1.25.0-alpha.jar lib/opentelemetry-ap
+ i-1.43.0.jar lib/opentelemetry-context-1.43.0.jar lib/opentelemetry-exp
+ orter-logging-1.43.0.jar lib/opentelemetry-sdk-common-1.43.0.jar lib/op
+ entelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar lib/opentelemetr
+ y-sdk-extension-autoconfigure-1.43.0.jar lib/opentelemetry-api-incubato
+ r-1.43.0-alpha.jar lib/opentelemetry-sdk-trace-1.43.0.jar lib/opentelem
+ etry-sdk-1.43.0.jar lib/opentelemetry-sdk-metrics-1.43.0.jar lib/opente
+ lemetry-sdk-logs-1.43.0.jar lib/byte-buddy-1.15.7.jar lib/selenium-os-4
+ .26.0.jar lib/commons-exec-1.4.0.jar lib/selenium-safari-driver-4.26.0.
+ jar lib/selenium-support-4.26.0.jar
 Main-Class: com.arcada.devops.math_calc.CalcV1
 Created-By: Maven Integration for Eclipse
 

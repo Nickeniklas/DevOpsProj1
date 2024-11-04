@@ -40,6 +40,12 @@
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
+    <!-- SELENIUM -->
+    <dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>4.26.0</version>
+	</dependency>
   </dependencies>
 
   <build>
