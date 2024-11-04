@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class CalcV1 {
 	public static void main(String[] args) {
-		System.out.println("Welcome to the Calculator\nWrite 1 for addition or 5 to quit");
+		System.out.println("Welcome to the Calculator\\nWrite 1 for addition 2 for subtraction and 3 for multiplication 4 for division or 5 to quit");
 	
         Scanner userInput = new Scanner(System.in);
         //  Ask user for type of calculation
@@ -23,6 +23,30 @@ public class CalcV1 {
             if (userMathChoice == 1) {
                 int result = calcAddition(userN1, userN2);
                 System.out.println("Result: " + result);
+            }
+            //  2. Subtraction
+            if (userMathChoice == 2) {
+                int mathSolved = userN1 - userN2;
+                System.out.printf("%d - %d = %d\n",
+                        userN1,
+                        userN2,
+                        mathSolved);
+            }
+            //  3. Multiplication
+            if (userMathChoice == 3) {
+                int mathSolved = userN1 * userN2;
+                System.out.printf("%d * %d = %d\n",
+                        userN1,
+                        userN2,
+                        mathSolved);
+            }
+            //  4. Multiplication
+            if (userMathChoice == 4) {
+                int mathSolved = userN1 / userN2;
+                System.out.printf("%d / %d = %d\n",
+                        userN1,
+                        userN2,
+                        mathSolved);
             }
             
             //  Ask Again user for type of calculation
